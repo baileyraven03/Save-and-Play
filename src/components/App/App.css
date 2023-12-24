@@ -3,19 +3,20 @@ html,
 #root {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 html {
   font-size: 18px;
 }
 
-h1 {
-  padding: 2rem;
-  background-color: #051937;
+.App h1 {
+  padding-top: 2rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
   color: #fff;
+  width: 100%;
 }
 
 

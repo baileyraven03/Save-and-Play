@@ -46,10 +46,10 @@ const App = () => {
   return (
     <div>
     <div className="Back">
+      <div className="App">
       <h1>
         Save <span className="highlight">AND</span> Play!
       </h1>
-      <div className="App">
         <SearchBar onSearch={search} />
         <div className="App-playlist">
           <SearchResults searchResults={searchResults} onAdd={addTrack} />
