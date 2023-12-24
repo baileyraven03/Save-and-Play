@@ -1,0 +1,78 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: 2rem;
+  background-color: #051937;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #a8eb12;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 7% 5% 7%;
+  background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.RSS {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #a8eb12;
+}
+.RSS a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: #004d7a 1px 1px 1px;
+  font-weight: 500;
+}
+
+.RSS a:hover {
+  font-weight: 750;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
